@@ -1,0 +1,16 @@
+//factorial
+Public class factorial {
+  public static void main(String[] args) {
+  int firstNum = 0;
+  int secNum = 1;
+  int sum = 0;
+  for(int i = 1;i<=8;i++){
+      sum = firstNum + secNum;
+      syso(sum);
+      firstNum = secNum;
+      secNum = sum;
+      
+      
+      
+      
+      
