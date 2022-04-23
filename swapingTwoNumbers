@@ -1,0 +1,17 @@
+public class SwapingTwoNumbers {
+public static void main(String[] args) {
+        int a = 20;
+        int b = 10;
+        
+     a = a + b;
+     syso(a)            // a= 30
+     
+     b = a - b;
+     syso(b)           // b = 20
+     
+     a = a -b;
+     syso(a)          // a = 10
+     
+     }
+     
+   }
