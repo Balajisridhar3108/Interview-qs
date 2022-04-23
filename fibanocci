@@ -1,5 +1,5 @@
-//factorial
-Public class factorial {
+//fibanocci
+Public class fibanocci {
   public static void main(String[] args) {
   int firstNum = 0;
   int secNum = 1;
