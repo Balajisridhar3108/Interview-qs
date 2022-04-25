@@ -1,0 +1,21 @@
+xpath: //tagname[@attributes = 'attribute value']
+E.g : //input[@class = ' username']
+
+FOR TEXT :
+//input[text= 'nope']
+
+Parent to Child:
+//tagname[@attribute = 'attribute value']/child tagname
+//tagname[@attribute = 'attribute value']/child tagname[@attribute = 'value']
+
+child to parent
+//label[@child ='username']/parent::p
+
+grandparent to grandchild
+//input[@name='myname']/ancestor::div[@class = 'myclass']
+
+elder to younger
+//label[@for = 'username']//following-sibling::input
+
+younger to elder
+//label[@for = 'username']//proceeding-sibling::input
